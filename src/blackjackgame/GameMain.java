@@ -21,7 +21,7 @@ private boolean doubleDownAllowed;
 		GameMain(String pName){
 		
 		this.balance = 100;
-		this.newDeck = new Decks(4, true);
+		this.newDeck = new Decks(1, true);
 		boolean gameOver = false;
 		this.playerName  = pName;
 		
