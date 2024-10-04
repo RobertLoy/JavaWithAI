@@ -24,7 +24,7 @@ public Deck(){
 		for(int d=0;d<numPacks;d++){
 			
 			// for each numer
-			for(int s=0; s<4;s++){
+			for(int s=0; s<3;s++){
 				for(int n=1;n<=13;n++){
 					
 					this.cardsInDeck[c] = new Cards(Suits.values()[s], n);
